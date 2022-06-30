@@ -7,6 +7,9 @@ const customers = ["1424", "4323", "1194"];
 
 const client = redis.createClient();
 
+/**
+ * run connects to redis and listens for folder changes
+ */
 const run = () => {
   client.on('connect', function() {
     console.log('Redis Connected!');
