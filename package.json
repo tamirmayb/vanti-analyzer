@@ -1,0 +1,19 @@
+{
+  "name": "vanti-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamirmayb/vanti-analyzer.git"
+  },
+  "keywords": [],
+  "author": "TAM",
+  "license": "TAM",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
